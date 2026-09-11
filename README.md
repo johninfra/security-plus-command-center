@@ -49,19 +49,6 @@ cd security-plus-command-center
 
 The PowerShell launcher only verifies that `index.html` exists and opens the local site in the default browser. It does not download or execute remote code.
 
-## GitHub Pages
-
-This repository is ready for GitHub Pages from the repository root.
-
-1. Open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/ (root)**.
-4. Save.
-
-Expected URL:
-
-`https://johninfra.github.io/security-plus-command-center/`
-
 ## Data & Privacy
 
 Study progress is stored in the browser with `localStorage`.

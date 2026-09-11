@@ -1,6 +1,6 @@
 # Security+ Command Center — SY0-701
 
-A browser-based CompTIA Security+ SY0-701 study dashboard with original practice questions, flashcards, acronym review, ports/protocols, simplified PBQ exercises, missed-question tracking, and local progress analytics.
+A browser-based CompTIA Security+ SY0-701 study dashboard with original practice questions, flashcards, acronym review, ports/protocols, missed-question tracking, domain accuracy, and local progress storage.
 
 > **Independent project:** This repository is not affiliated with or endorsed by CompTIA. It does not contain real Security+ exam questions, exam dumps, or proprietary CompTIA training content.
 
@@ -8,16 +8,14 @@ A browser-based CompTIA Security+ SY0-701 study dashboard with original practice
 
 - Security+ SY0-701 domain study map
 - Original scenario-based practice questions with explanations
-- 25-question timed mock exam mode
 - Domain-by-domain accuracy tracking
 - Missed-question review queue
 - Flashcards
 - Acronym trainer
 - Ports and protocols reference
-- Simplified performance-based question (PBQ) lab
-- Local study streak
 - Local browser storage — no account or backend required
-- Responsive layout for desktop and mobile
+- Responsive desktop/mobile layout
+- Optional PowerShell launcher for local use
 
 ## Current Domain Map
 
@@ -78,11 +76,6 @@ Study progress is stored in the browser with `localStorage`.
 ```text
 security-plus-command-center/
 ├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   ├── data.js
-│   └── app.js
 ├── Launch-Study-App.ps1
 ├── README.md
 ├── SECURITY.md
